@@ -16,7 +16,7 @@ if st.checkbox('ようこそ！'):
         bar.progress(i + 1)
         time.sleep(0.01)
 
-    img = Image.open('C:/Users/Wolira/Desktop/streamlit/sample.jpg')    #NowLoadingが終了後画像表示
+    img = Image.open('sample.jpg')    #NowLoadingが終了後画像表示
     st.image(img, caption='taco', use_column_width=True)
 
     'Done!!'
